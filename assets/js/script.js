@@ -1,0 +1,20 @@
+const burgerMenu = document.querySelector("#burger-menu");
+const unorderedList = document.querySelector("nav ul");
+const nav = document.querySelector("nav");
+const scrollUp = document.querySelector("#scroll-up");
+const navLink = document.querySelectorAll(".nav-link");
+burgerMenu.addEventListener("click",() => {
+  unorderedList.classList.toggle("show");
+});
+navLink.forEach((link) =>
+  link.addEventListener("click",() => {
+    unorderedList.classList.remove("show");
+  })
+);
+scrollUp.addEventListener("click",() => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
