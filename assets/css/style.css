@@ -473,12 +473,15 @@ footer {
   }
 }
 @media only screen and (max-width:345px){
+  .skills .skill-header {
+    padding-left: 1rem;
+  }
   .skills .skills-wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1rem;
   }
   .skills .skills-wrapper .icon {
-    width: 5rem;
+    width: 10rem;
   }
 }
