@@ -484,4 +484,13 @@ footer {
   .skills .skills-wrapper .icon {
     width: 10rem;
   }
+  .projects .projects-title {
+    padding-left: 2rem;
+  }
+  .projects .project-container .project-details {
+    font-size: 1.5rem;
+  }
+  .projects .project-container .project-link {
+    font-size: 1.3rem;
+  }
 }
